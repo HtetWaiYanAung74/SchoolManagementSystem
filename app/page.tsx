@@ -6,7 +6,7 @@ import { useCallback } from "react";
 export default function Home() {
   const router = useRouter();
   const onClickRegister = useCallback((): void => {
-    router.push("/register");
+    router.push("/register/hwya");
   }, []);
   return (
     <div>
